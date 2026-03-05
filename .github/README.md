@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-identitystore`](https://www.npmjs.com/package/@aws-sdk/client-identitystore/v/3.1001.0).
+[`@aws-sdk/client-identitystore`](https://www.npmjs.com/package/@aws-sdk/client-identitystore/v/3.1002.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-identitystore@3.1001.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-identitystore@3.1002.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-7U2B/3X0f06ayJRa32WYg8O+3wQoAGjry+fSkOns3p/ktvKcqginbE6nHovEQSFt
+sha384-M1jkMg9VS5Tfj5DhG7A8GztBG8hVNJvJJJgTbf4Z/fkuuqoxCE3+EzrPbas1QS9C
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-identitystore": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-identitystore@3.1001.0/index.min.mjs"
+            "@aws-sdk/client-identitystore": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-identitystore@3.1002.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-identitystore@3.1001.0/index.min.mjs": "sha384-7U2B/3X0f06ayJRa32WYg8O+3wQoAGjry+fSkOns3p/ktvKcqginbE6nHovEQSFt"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-identitystore@3.1002.0/index.min.mjs": "sha384-M1jkMg9VS5Tfj5DhG7A8GztBG8hVNJvJJJgTbf4Z/fkuuqoxCE3+EzrPbas1QS9C"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-identitystore": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-identitystore@3.1001.0/index.min.mjs"
+                        "@aws-sdk/client-identitystore": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-identitystore@3.1002.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-identitystore@3.1001.0/index.min.mjs": "sha384-7U2B/3X0f06ayJRa32WYg8O+3wQoAGjry+fSkOns3p/ktvKcqginbE6nHovEQSFt"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-identitystore@3.1002.0/index.min.mjs": "sha384-M1jkMg9VS5Tfj5DhG7A8GztBG8hVNJvJJJgTbf4Z/fkuuqoxCE3+EzrPbas1QS9C"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1001.0`)
+* Always pin to a specific version (`@3.1002.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-identitystore/blob/refs/tags/3.1001.0/LICENSE
+https://github.com/cloud-sdk-builds/client-identitystore/blob/refs/tags/3.1002.0/LICENSE
 ```
 
 ---
